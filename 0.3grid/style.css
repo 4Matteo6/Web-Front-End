@@ -1,0 +1,30 @@
+.separation {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 500px;
+    height:500px;
+    row-gap: 10px;
+    column-gap: 10px;
+    
+}
+
+
+.red {
+    background-color: red;
+    border: 15px solid;
+}
+
+.green {
+    background-color: green;
+    border: 15px solid;
+}
+
+.blue {
+    background-color: blue;
+    border: 15px solid;
+}
+.purple {
+    background-color: purple;
+    border: 15px solid;
+}
