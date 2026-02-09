@@ -1,0 +1,14 @@
+.bold{
+    font-weight: bold;
+}
+
+.blue{
+    color: blue;
+}
+.bottoncino{
+    width: 200px;
+    height:150px;
+}
+h2 ~ p {
+    color: red;
+}
