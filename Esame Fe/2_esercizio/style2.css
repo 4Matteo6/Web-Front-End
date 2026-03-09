@@ -1,0 +1,132 @@
+.navbar {
+    height: 60px;
+    background-color: #c2185b;
+    color: white;
+    position: relative;
+    width: 100%;
+}
+
+.content {
+    position: relative;
+    max-width: 1250px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 120px;
+    top: 50%;
+    transform: translate(0, -50%);
+    flex-direction: row;
+}
+
+.item {
+    margin-right: 25px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.item:hover {
+    background-color: gray;
+}
+
+.main-container1 {
+    display: flex;
+    text-align: center;
+    margin: 40px 0;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tab {
+    display: flex;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: #e91e63;
+}
+
+.tab:hover {
+    background-color: #c2185b;
+    color: white;
+}
+
+.main-container2 {
+    display: flex;  
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 20px auto;
+    min-height: 700px; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    width: 240px;
+    height: 270px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    
+}
+.card:hover{
+    box-shadow: 0 2px 2px gray;
+}
+
+.card-name {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 25px;
+    height: 25px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+.color1 { 
+    background-color: #ef476f; 
+}
+.color2 { 
+    background-color: #ffd166; 
+}
+.color3 {
+     background-color: #06d6a0; 
+    }
+.color4 { 
+    background-color: #118ab2; 
+}
+.color5 { 
+    background-color: #073b4c; 
+}
+.color6 { 
+    background-color: #8338ec; 
+}
+.color7 { 
+    background-color: #ff006e; 
+}
+

@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+}
+
+.btn.secondary {
+    background-color: #6c757d;
+}
+
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.user {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    flex: 1 1 240px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+
+.user.highlight {
+    background-color: #fff3cd; 
+    border-color: #ffeeba;
+}
